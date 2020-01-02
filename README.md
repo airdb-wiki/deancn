@@ -4,7 +4,7 @@
 
 ```
 sudo npm install -g gitbook-cli
-gitbook install ./
+gitbook install
 gitbook serve
 ```
 
