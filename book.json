@@ -8,6 +8,7 @@
     "disqus",
     "github",
     "editlink",
+    "custom-favicon",
     "prism", "-highlight",
     "-lunr", "-search", "search-plus",
     "codesnippet",
@@ -24,6 +25,7 @@
     "fontSize": 11
   },
   "pluginsConfig": {
+    "favicon": "favicon.ico",
     "image-captions": {
           "caption": "image - _CAPTION_"
     },
