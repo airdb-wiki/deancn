@@ -1,15 +1,11 @@
-# Introduction
+# Wiki
 
-## install
+## Introduction
 
-```
-sudo npm install -g gitbook-cli
-gitbook install
-gitbook serve
-```
+[airdb wiki](https://airdb.wiki)
 
-## Reference
+## List
 
-[How to use Gitbook](http://www.vapicloud.com/books/gitbook/ch1/1-1-mac.html)
+[Development](https://airdb.wiki/dev)
 
-[How to use Gitbook-2](http://www.chengweiyang.cn/gitbook/github-pages/README.html)
+[Linux](https://airdb.wiki/linux)
