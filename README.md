@@ -11,3 +11,7 @@
 [Development](https://airdb.wiki/dev)
 
 [Linux](https://airdb.wiki/linux)
+
+[kubernetes](https://airdb.wiki/kube)
+
+[bbhj](https://airdb.wiki/bbhj)
