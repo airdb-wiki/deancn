@@ -10,8 +10,17 @@
 
 [Development](https://airdb.wiki/dev)
 
+[interview](https://airdb.wiki/interview)
+
 [Linux](https://airdb.wiki/linux)
 
 [kubernetes](https://airdb.wiki/kube)
 
 [bbhj](https://airdb.wiki/bbhj)
+
+[work](https://airdb.wiki/work)
+
+[work](https://airdb.wiki/work)
+
+[ai](https://airdb.wiki/ai)
+
