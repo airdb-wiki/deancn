@@ -25,7 +25,7 @@ jobs:
         npm install -g gitbook-cli
         gitbook install ./
         gitbook build
-        echo 'airdb.wiki' > _book/CNAME
+        echo 'airdb.dev' > _book/CNAME
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2
