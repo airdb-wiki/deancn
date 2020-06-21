@@ -5,19 +5,20 @@
   "plugins": [
     "expandable-chapters",
     "anchors",
-    "disqus",
     "github",
     "editlink",
     "custom-favicon",
     "prism", "-highlight",
-    "-lunr", "-search", "search-plus",
+    "-lunr", "-search", "-search-pro", "search-plus",
     "codesnippet",
     "splitter",
     "page-toc-button",
     "image-captions",
     "page-footer-ex",
     "tags",
-    "multipart"
+    "multipart",
+    "theme-comscore",
+    "gittalk"
   ],
   "pdf": {
     "toc": true,
@@ -35,9 +36,6 @@
    	},
     "expandable-chapters":{
     },
-    "disqus": {
-      "shortName": "airdb"
-    },
     "github": {
       "url": "https://github.com/airdb/gitbook"
     },
@@ -53,17 +51,13 @@
     "tags": {
         "placement": "bottom"
     },
-    "sharing": {
-        "facebook": true,
-        "twitter": true,
-        "google": true,
-        "weibo": true,
-        "instapaper": false,
-        "vk": false,
-        "all": [
-            "facebook", "google", "twitter",
-            "weibo", "instapaper"
-        ]
+    "gittalk": {
+      "clientID": "080237dd43387e94dd3c",
+      "clientSecret": "35bb318402a5949a31c02518b0569255f7e2d92a",
+      "repo": "airdb-wiki/comments",
+      "owner": "deancn",
+      "admin": ["deancn"],
+      "distractionFreeMode": false 
     }
   }
 }
