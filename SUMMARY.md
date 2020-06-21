@@ -1,17 +1,18 @@
 # Summary
 
-## [airdb.wiki](https://airdb.wiki)
+## [airdb.wiki](https://airdb-wiki.github.io)
 
 
-* Part 1: Comm
-* [Part 2: SRE](wiki/sre.md)
-	* [OPS](wiki/ops.md)
+* [Part 1: Comm](wiki/part1/README.md)
+
+* [Part 2: SRE](wiki/part2/sre.md)
+	* [OPS](wiki/part2/ops.md)
 	* [1. Code](wiki/README.md)
-	* [2. CI/CD](wiki/cicd.md)
-	* [3. Linux Basic](wiki/linux.md)
-	* [4. OS Init](wiki/osinit.md)
-	* [5. kubernetes](wiki/kube.md)
-	* [6. Gateway](wiki/gateway.md)
+	* [2. CI/CD](wiki/part2/cicd.md)
+	* [3. Linux Basic](wiki/part2/linux.md)
+	* [4. OS Init](wiki/part2/osinit.md)
+	* [5. kubernetes](wiki/part2/kube.md)
+	* [6. Gateway](wiki/part2/gateway.md)
 ## Tags
 
 * [tags](tags.md)
