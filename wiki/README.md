@@ -2,4 +2,4 @@
 
 ## Code Part
 
-[dev](https://airdb.wiki/dev)
+[dev](https://airdb-wiki.github.io/dev)
