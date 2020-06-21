@@ -4,6 +4,9 @@
 
 
 * [Part 1: Comm](wiki/part1/README.md)
+	* [四种学习方法](wiki/part1/4-ways-to-learn.md)
+	* [高效沟通](wiki/part1/efficient-communication.md)
+	* [快速提升一线管理者的战斗力](wiki/part1/m1-ability.md)
 
 * [Part 2: SRE](wiki/part2/sre.md)
 	* [OPS](wiki/part2/ops.md)
