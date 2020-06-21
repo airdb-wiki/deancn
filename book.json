@@ -52,10 +52,10 @@
         "placement": "bottom"
     },
     "gittalk": {
-      "clientID": "080237dd43387e94dd3c",
-      "clientSecret": "35bb318402a5949a31c02518b0569255f7e2d92a",
-      "repo": "airdb/airdb-wiki.github.io",
-      "owner": "deancn",
+      "clientID": "82d2a29103bc197c3bb4",
+      "clientSecret": "70dde8b91462a8dd50f72f20e7506ce898aa4939",
+      "repo": "airdb-wiki.github.io",
+      "owner": "airdb-wiki",
       "admin": ["deancn"],
       "distractionFreeMode": false 
     }
