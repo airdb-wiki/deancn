@@ -6,7 +6,6 @@
     "expandable-chapters",
     "anchors",
     "github",
-    "editlink",
     "custom-favicon",
     "prism", "-highlight",
     "-lunr", "-search", "-search-pro", "search-plus",
@@ -17,6 +16,7 @@
     "page-footer-ex",
     "tags",
     "multipart",
+    "-sharing",
     "theme-comscore",
     "gittalk"
   ],
@@ -37,11 +37,7 @@
     "expandable-chapters":{
     },
     "github": {
-      "url": "https://github.com/airdb/gitbook"
-    },
-    "editlink": {
-      "base": "https://github.com/airdb/gitbook/blob/master/",
-      "label": "Edit This Page"
+      "url": "https://github.com/airdb-wiki/airdb-wiki.github.io"
     },
     "page-footer-ex":{
         "copyright":"Copyright © 2015-present airdb.",
@@ -51,6 +47,12 @@
     "tags": {
         "placement": "bottom"
     },
+    "sharing": {
+            "facebook": false,
+            "twitter": false,
+            "google": false,
+            "all": [ "weibo", "instapaper" ]
+     },
     "gittalk": {
       "clientID": "82d2a29103bc197c3bb4",
       "clientSecret": "70dde8b91462a8dd50f72f20e7506ce898aa4939",
