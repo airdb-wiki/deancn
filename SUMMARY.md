@@ -16,6 +16,10 @@
 	* [4. OS Init](wiki/part2/osinit.md)
 	* [5. kubernetes](wiki/part2/kube.md)
 	* [6. Gateway](wiki/part2/gateway.md)
+
+* [Part 3: Application Performance](wiki/part3/README.md)
+
+
 ## Tags
 
 * [tags](tags.md)
