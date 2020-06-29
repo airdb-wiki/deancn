@@ -19,6 +19,9 @@
 
 * [Part 3: Application Performance](wiki/part3/README.md)
 
+* [Part 4: Github](wiki/github/README.md)
+	* [Actions](wiki/github/actions.md)
+
 
 ## Tags
 
