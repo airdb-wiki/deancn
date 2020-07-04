@@ -58,7 +58,7 @@
       "clientSecret": "70dde8b91462a8dd50f72f20e7506ce898aa4939",
       "repo": "airdb-wiki.github.io",
       "owner": "airdb-wiki",
-      "admin": ["deancn"],
+      "admin": ["deancn", "airdb-bot"],
       "distractionFreeMode": false 
     }
   }
