@@ -32,5 +32,5 @@ jobs:
       env:
         # PERSONAL_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GithubBotToken }}
-        #PUBLISH_BRANCH: master
+        PUBLISH_BRANCH: gh-pages # master
         PUBLISH_DIR: ./_book
