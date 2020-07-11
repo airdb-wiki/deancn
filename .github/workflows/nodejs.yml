@@ -3,7 +3,7 @@ name: Node
 on:
   push:
     branches:
-      - master
+      - dev
 
 jobs:
   build:
@@ -32,5 +32,5 @@ jobs:
       env:
         # PERSONAL_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GithubBotToken }}
-        PUBLISH_BRANCH: gh-pages # master
+        PUBLISH_BRANCH: master # gh-pages
         PUBLISH_DIR: ./_book
