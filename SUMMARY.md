@@ -10,6 +10,7 @@
 
 * [Part 2: SRE](wiki/part2/sre.md)
 	* [OPS](wiki/part2/ops.md)
+	* [Ubuntu Snap Package](wiki/part2/snapcraft.md)
 	* [1. Code](wiki/README.md)
 	* [2. CI/CD](wiki/part2/cicd.md)
 	* [3. Linux Basic](wiki/part2/linux.md)
