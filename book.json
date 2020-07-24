@@ -3,6 +3,7 @@
   "description": "gitbook",
   "language": "en-us",
   "plugins": [
+    "asciinema",
     "expandable-chapters",
     "anchors",
     "github",

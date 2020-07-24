@@ -17,3 +17,5 @@
 | 方式 | [work](https://airdb-wiki.github.io/work) |
 | AI | [ai](https://airdb-wiki.github.io/ai) |
 
+{% asciinema %}349488{% endasciinema %}
+
