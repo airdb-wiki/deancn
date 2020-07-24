@@ -23,6 +23,7 @@
 * [Part 4: Programming]
 	* [Github Fork](wiki/github/fork.md)
 	* [Github Actions](wiki/github/actions.md)
+	* [Makefile](wiki/github/makefile.md)
 	* [Defensive Programming](wiki/part4/defensive-programming.md)
 
 ## Tags
