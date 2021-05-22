@@ -2,7 +2,20 @@
 headless: true
 ---
 
-- [Introduction]({{< relref "_index.md" >}})
+- [Development Handbook]({{< relref "_index.md" >}})
+  - Github
+    - [Github Issue 的用法]({{< relref "wiki/dev/github/issue.md" >}})
+    - [Git 分支的约束和管理]({{< relref "wiki/dev/git_branch_manage.md" >}})
+    - [Github 如何提交 PR]({{< relref "wiki/dev/how_to_github_pull_request.md" >}})
+  - Setup
+    - [Bash]({{< relref "wiki/dev/setup/bash.md" >}})
+  - Tools
+    - [Command]({{< relref "wiki/dev/tools/cmd.md" >}})
+    - [CI/CD]({{< relref "wiki/dev/tools/cicd.md" >}})
+  
+  * Coding Style
+    - [Golang 编码规范指南]({{< relref "wiki/dev/go-coding-style.md" >}})
+    - [中文文案排版指北]({{< relref "wiki/dev/document.md" >}})
 
 - [Part 1: Basic Linux Skills]({{< relref "wiki/linux/README.md" >}})
   - [Bash]({{< relref "wiki/linux/bash.md" >}})
@@ -51,3 +64,4 @@ headless: true
   - [Makefile]({{< relref "wiki/github/makefile.md" >}})
   - [Defensive Programming]({{< relref "wiki/part4/defensive-programming.md" >}})
 
+- [Emoji]({{< relref "wiki/dev/emoji-list.md" >}})

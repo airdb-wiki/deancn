@@ -14,6 +14,7 @@
   brew install hugo
   brew install gh
   brew install golangci-lint
+  brew install coreutils (readlink)
 
 ## 修改主机名
 
