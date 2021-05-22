@@ -23,7 +23,7 @@ headless: true
 
 - [Part 3: Application Performance]({{< relref "wiki/part3/README.md" >}})
 
-- [Part 4: Programming]
+- Part 4: Programming
   - [Github Fork]({{< relref "wiki/github/fork.md" >}})
   - [Github Actions]({{< relref "wiki/github/actions.md" >}})
   - [Makefile]({{< relref "wiki/github/makefile.md" >}})
