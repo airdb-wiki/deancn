@@ -4,7 +4,7 @@ headless: true
 
 <hr>
 
-- [Introduction]({{< relref "README.md" >}})
+- [Introduction]({{< relref "_index.md" >}})
 
 - [Part 1: Comm]({{< relref "wiki/part1/README.md" >}})
   - [四种学习方法]({{< relref "wiki/part1/4-ways-to-learn.md" >}})
