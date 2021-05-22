@@ -21,6 +21,13 @@ headless: true
 - OS Init
   - [Setup Mac]({{< relref "wiki/osinit/mac.md" >}})
 
+
+- [Kube]({{< relref "wiki/kube/README.md" >}})
+  - [Installation]({{< relref "wiki/kube/1-kubernetes-on-macOS.md" >}})
+  - [Ingress]({{< relref "wiki/kube/2-ingress-exmaple.md" >}})
+  - [Helm]({{< relref "wiki/kube/helm.md" >}})
+  - [FAQ]({{< relref "wiki/kube/9-faq.md" >}})
+
 - [Part 1: Comm]({{< relref "wiki/part1/README.md" >}})
   - [四种学习方法]({{< relref "wiki/part1/4-ways-to-learn.md" >}})
   - [高效沟通]({{< relref "wiki/part1/efficient-communication.md" >}})
