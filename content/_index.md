@@ -20,8 +20,7 @@
 
 | 分类 | 链接 |
 | :---: |  --- | 
-| 项目管理 | [studygolang](https://airdb-wiki.github.io/studygolang) | 
-| 项目管理 | [bbhj](https://airdb-wiki.github.io/bbhj) | 
+| 项目管理 | [bbhj](https://airdb.github.io/howto) | 
 | 面试经验 | [interview](https://airdb-wiki.github.io/interview) |
 | 方式 | [work](https://airdb-wiki.github.io/work) |
 | AI | [ai](https://airdb-wiki.github.io/ai) |
