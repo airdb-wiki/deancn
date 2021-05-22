@@ -2,7 +2,7 @@
 
 baseURL = 'https://airdb.dev/'
 title = 'Hugo Book'
-theme = 'hugo-book'
+theme = 'book'
 
 # Book configuration
 disablePathToLower = true
