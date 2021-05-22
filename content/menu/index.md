@@ -14,8 +14,12 @@ headless: true
 - Part 2: Base Service
   - [Nginx]({{< relref "wiki/linux/nginx.md" >}})
   - [DHCP]({{< relref "wiki/linux/dhcp.md" >}})
+
 - Part 3: Linux Performance
   - [Monitor]({{< relref "wiki/linux/monitor.md" >}})
+
+- OS Init
+  - [Setup Mac]({{< relref "wiki/osinit/mac.md" >}})
 
 - [Part 1: Comm]({{< relref "wiki/part1/README.md" >}})
   - [四种学习方法]({{< relref "wiki/part1/4-ways-to-learn.md" >}})
