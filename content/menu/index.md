@@ -2,8 +2,6 @@
 headless: true
 ---
 
-<hr>
-
 - [Introduction]({{< relref "_index.md" >}})
 
 - [Part 1: Comm]({{< relref "wiki/part1/README.md" >}})
