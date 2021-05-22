@@ -1,5 +1,8 @@
 # Defensive Programming 
 
+## Reference
+http://teaching.csse.uwa.edu.au/units/CITS1001/handouts/L14-defensive-programming.pdf
+
 ## Rules on how to employ Defensive Programming in your codebase:
 
 1. Protect your code from invalid data coming from outside, wherever you decide outside is. External systems, files, or any call from outside of the module/component. Establish “trust boundaries” — everything outside of the boundary is dangerous, everything inside of the boundary is safe. In the barricade code, validate all input data.

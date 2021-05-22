@@ -13,23 +13,22 @@ headless: true
     - [Command]({{< relref "wiki/dev/tools/cmd.md" >}})
     - [CI/CD]({{< relref "wiki/dev/tools/cicd.md" >}})
   
-  * Coding Style
-    - [Golang 编码规范指南]({{< relref "wiki/dev/go-coding-style.md" >}})
-    - [中文文案排版指北]({{< relref "wiki/dev/document.md" >}})
+  - [Coding Style]({{< relref "wiki/dev/coding-style/_index.md" >}})
+    - [Golang 编码规范指南]({{< relref "wiki/dev/coding-style/go-coding-style.md" >}})
+    - [中文文案排版指北]({{< relref "wiki/dev/coding-style/document.md" >}})
 
 - [Part 1: Basic Linux Skills]({{< relref "wiki/linux/README.md" >}})
-  - [Bash]({{< relref "wiki/linux/bash.md" >}})
-  - [Bash Programming]({{< relref "wiki/linux/bash-prog.md" >}})
-  - [Vim]({{< relref "wiki/linux/vim.md" >}})
-  - [Ssh]({{< relref "wiki/linux/ssh.md" >}})
-  - [Tools]({{< relref "wiki/linux/tools.md" >}})
+  - [Bash]({{< relref "wiki/linux/shell/bash.md" >}})
+  - [Bash completion]({{< relref "wiki/linux/shell/bash-completion.md" >}})
+  - [Bash Programming]({{< relref "wiki/linux/shell/bash-prog.md" >}})
+  - [Vim]({{< relref "wiki/linux/shell/vim.md" >}})
+  - [Ssh]({{< relref "wiki/linux/shell/ssh.md" >}})
+  - [Tools]({{< relref "wiki/linux/shell/tools.md" >}})
 
 - Part 2: Base Service
-  - [Nginx]({{< relref "wiki/linux/nginx.md" >}})
-  - [DHCP]({{< relref "wiki/linux/dhcp.md" >}})
-
-- Part 3: Linux Performance
-  - [Monitor]({{< relref "wiki/linux/monitor.md" >}})
+  - [Nginx]({{< relref "wiki/linux/service/nginx.md" >}})
+  - [DHCP]({{< relref "wiki/linux/service/dhcp.md" >}})
+  - [Linux Performance - Monitor]({{< relref "wiki/linux/service/monitor.md" >}})
 
 - OS Init
   - [Setup Mac]({{< relref "wiki/osinit/mac.md" >}})
