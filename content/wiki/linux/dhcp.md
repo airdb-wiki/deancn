@@ -1,6 +1,13 @@
 # DHCP
 
+
 Dynamic Host Configuration Protocol
+
+## Reference
+
+1. tftp server: https://github.com/tftp-go-team/hooktftp
+
+2. 一个网络启动服务器，支持pxe: https://github.com/pojntfx/bofied
 
 Best Practice
 

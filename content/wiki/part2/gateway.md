@@ -1,5 +1,7 @@
 # Gateway
 
+[《深入理解BFE》](https://github.com/baidu/bfe-book)
+
 ## 智能网关趋势
 
 - HTTPS 
