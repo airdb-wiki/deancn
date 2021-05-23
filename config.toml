@@ -54,8 +54,8 @@ enableGitInfo = true
   weight = 43
 
 [[menu.after ]]
-  name = "插件市场"
-  url = "https://themes.gohugo.io/hugo-book/"
+  name = "技术公益"
+  url = "https://airdb.io/howto/"
   weight = 10
 
 [[menu.after ]]
