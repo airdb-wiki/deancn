@@ -4,12 +4,11 @@ sidebar: auto
 
 # Memory Leaking Scenarios 
 
-## 
+## Gin pprof
 
-```
-import "github.com/DeanThompson/ginpprof"
-
-	ginpprof.Wrapper(router)
+```bash
+import "github.com/gin-contrib/pprof"
+pprof.Register(router)
 ```
 
 
