@@ -4,12 +4,17 @@ weight: 10
 title: "Golang"
 ---
 
-# Golang 开发入门
+# Golang 常见问题收录
 
-## 我的第一个 Golang 程序
+## Golang 常见问题
+- [Go sync.Pool 浅析](https://mp.weixin.qq.com/s/MTf_4WEvCnCMKeQC_Wm_xw)
+- [[典藏版]Golang调度器GPM原理与调度全分析](https://zhuanlan.zhihu.com/p/323271088)
+
+
+## 开源项目
+- [Plugin 热更新问题](https://github.com/campoy/golang-plugins)
 
 ## 解析范式
-
 
 [Go Channel的实现](https://studygolang.com/articles/12023)
 
@@ -26,6 +31,4 @@ M代表着真正的执行计算资源。在绑定有效的p后，进入schedule�
 
 ![](/images/goroutine-scheduler-model.png "goroutine")
 
-Plugin 热更新问题
-https://github.com/campoy/golang-plugins
 
