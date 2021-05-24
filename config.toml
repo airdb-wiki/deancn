@@ -60,7 +60,7 @@ enableGitInfo = true
 
 [[menu.after ]]
   name = "需求墙"
-  url = "https://github.com/airdb-wiki/hugo-book"
+  url = "https://github.com/airdb-wiki/hugo-book/discussions"
   weight = 20
 
 
