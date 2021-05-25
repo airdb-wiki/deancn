@@ -1,7 +1,7 @@
 ---
 bookCollapseSection: true
 weight: 19
-title: 工作效率
+title: 工作和生活效率
 ---
 
 # HPBP

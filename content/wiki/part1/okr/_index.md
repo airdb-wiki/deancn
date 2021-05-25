@@ -1,4 +1,8 @@
-通过对 OKR 的学习和理解，应用到工作和生活，以此提升自我能力，提升家庭幸福感。
+---
+title: OKR
+---
+
+通过对 [OKR](https://felipecastro.com/en/okr/what-is-okr/) 的学习和理解，应用到工作和生活，以此提升自我能力，提升家庭幸福感。
 
 ## 家庭 OKR
 
