@@ -4,6 +4,11 @@ weight: 10
 title: "Golang"
 ---
 
+# 学习资料
+
+- [Golang Gin 实践](https://www.jishuchi.com/read/gin-practice/3824)
+- [gin源码分析](https://www.crblog.cc/golang/_book/gin/gin%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90.html)
+
 # Golang 常见问题收录
 
 ## Golang 常见问题
