@@ -24,6 +24,14 @@ TENCENT_SECRET_KEY=XXX
 TENCENT_REGION=ap-shanghai
 ```
 
+不过`.env` 文件管理繁琐， 建议使用 credential 来存储全局 secret, [全局授权身份](https://github.com/serverless/serverless-tencent/discussions/4#discussioncomment-638680)
+
+```bash
+# 国际用户，使用如下命令部署
+SERVERLESS_PLATFORM_VENDOR=tencent GLOBAL_ACCELERATOR_NA=true sls deploy --stage test
+```
+
+
 2. serverless.yaml 配置文件
 
 Ref: https://github.com/serverless-components/tencent-scf/blob/master/docs/configure.md.
@@ -33,11 +41,11 @@ Demo: [https://github.com/airdb/scf-go]
 ## 部署
 
 ```bash
-sls deploy --stage test
+SERVERLESS_PLATFORM_VENDOR=tencent GLOBAL_ACCELERATOR_NA=true sls deploy --stage test
 ```
 
 ## 查看日志
 
 ```bash
-sls logs --tail --stage test
+SERVERLESS_PLATFORM_VENDOR=tencent GLOBAL_ACCELERATOR_NA=true sls logs --tail --stage test
 ```
