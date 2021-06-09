@@ -2,6 +2,8 @@
 sidebar: auto
 ---
 
+[go pprof与线上事故：一次成功的定位与失败的复现](https://mp.weixin.qq.com/s/4Vn1Rq82wOFiLdEmjXU0fw)
+
 # Memory Leaking Scenarios 
 
 ## Gin pprof

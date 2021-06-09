@@ -51,3 +51,6 @@ Reference:
 [The Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html#the-dependency-rule)
 [美团-领域驱动设计在互联网业务开发中的实践](https://tech.meituan.com/2017/12/22/ddd-in-practice.html)
 [浅析DDD(领域驱动设计)](https://www.jianshu.com/p/b6ec06d6b594)
+[DDD 领域驱动设计 - 架构（分层/六边形/RESTful）](https://blog.csdn.net/qianshangding0708/article/details/106232926)
+[领域驱动设计（DDD）：分层架构的三种模式](https://mp.weixin.qq.com/s/LzC4lfaNeabRfzyvl0rf1Q)
+[Golang领域模型-六边形架构](https://mp.weixin.qq.com/s/wXzfJ9HNAdk6QEyw8ez-Yw)
