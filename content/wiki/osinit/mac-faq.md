@@ -4,6 +4,7 @@
 
 sudo scutil --set HostName 新的主机名
 
+
 ## github remote: Permission to .git denied to user.
 
 解决方案
