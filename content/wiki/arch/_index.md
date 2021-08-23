@@ -3,6 +3,7 @@ title: 系统架构
 ---
 
 
+[怎么提高自己的系统架构水平](https://my.oschina.net/u/4662964/blog/5135740)
 [DDD 实战课](https://zq99299.github.io/note-book2/ddd/)
 
 ## 什么是架构
