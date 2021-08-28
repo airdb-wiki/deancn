@@ -45,7 +45,7 @@ enableGitInfo = true
 
 [[menu.before]]
   name = "APIs"
-  url = "https://app.swaggerhub.com/organizations/airdb"
+  url = "https://airdb.dev/redoc/"
   weight = 32
 
 [[menu.before]]
