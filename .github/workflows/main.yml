@@ -31,5 +31,5 @@ jobs:
         if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUBBOTTOKEN }}
-          publish_branch: main
+          publish_branch: gh-pages
           publish_dir: ./public
