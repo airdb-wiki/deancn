@@ -456,7 +456,7 @@ erda doc
 Wakatime
 `}),e.add({id:59,href:"/deancn/wiki/dev/vuejs/vue-chrome-extension/",title:"Chrome 插件制作",section:"Development Handbook",content:` # 创建项目 # vue create --preset kocal/vue-web-extension my-extension cd my-extension npm run serve 载入 # chrome 浏览器输入 chrome://extensions, 加载插件选择 my-extension/dist 目录。 加载成功即可生效。
 参考 # https://developer.chrome.com/docs/extensions/reference/commands/
-`}),e.add({id:60,href:"/deancn/wiki/training/implement-a-plugin-for-coredns/",title:"CoreDNS 插件开发",section:"训练板块",content:" CoreDNS 插件开发 # "}),e.add({id:61,href:"/deancn/wiki/arch/ddd/",title:"DDD - 领域驱动开发",section:"系统架构",content:` Domain-Drive Desgin # 实体 # 当一个对象由其标识（而不是属性）区分时，这种对象称为实体（Entity）。 例：最简单的，公安系统的身份信息录入，对于人的模拟，即认为是实体，因为每个人是独一无二的，且其具有唯一标识（如公安系统分发的身份证号码）。 在实践上建议将属性的验证放到实体中。
+`}),e.add({id:60,href:"/deancn/wiki/arch/ddd/",title:"DDD - 领域驱动开发",section:"系统架构",content:` Domain-Drive Desgin # 实体 # 当一个对象由其标识（而不是属性）区分时，这种对象称为实体（Entity）。 例：最简单的，公安系统的身份信息录入，对于人的模拟，即认为是实体，因为每个人是独一无二的，且其具有唯一标识（如公安系统分发的身份证号码）。 在实践上建议将属性的验证放到实体中。
 值对象 # 当一个对象用于对事务进行描述而没有唯一标识时，它被称作值对象（Value Object）。 例：比如颜色信息，我们只需要知道{“name”:“黑色”，”css”:“#000000”}这样的值信息就能够满足要求了，这避免了我们对标识追踪带来的系统复杂性。 值对象很重要，在习惯了使用数据库的数据建模后，很容易将所有对象看作实体。使用值对象，可以更好地做系统优化、精简设计。 它具有不变性、相等性和可替换性。
 在实践中，需要保证值对象创建后就不能被修改，即不允许外部再修改其属性。在不同上下文集成时，会出现模型概念的公用，如商品模型会存在于电商的各个上下文中。在订单上下文中如果你只关注下单时商品信息快照，那么将商品对象视为值对象是很好的选择。
 聚合根 # Aggregate(聚合）是一组相关对象的集合，作为一个整体被外界访问，聚合根（Aggregate Root）是这个聚合的根节点。 聚合是一个非常重要的概念，核心领域往往都需要用聚合来表达。其次，聚合在技术上有非常高的价值，可以指导详细设计。
@@ -465,12 +465,12 @@ Wakatime
 领域事件 # 领域事件是对领域内发生的活动进行的建模。
 Reference:
 The Clean Architecture 美团-领域驱动设计在互联网业务开发中的实践 浅析DDD(领域驱动设计) DDD 领域驱动设计 - 架构（分层/六边形/RESTful） 领域驱动设计（DDD）：分层架构的三种模式 Golang领域模型-六边形架构
-`}),e.add({id:62,href:"/deancn/wiki/dev/standard/sec/",title:"DevSecOps",section:"Development Handbook",content:` 面向开发人员梳理的代码安全指南 # Tencent: https://github.com/tencent/secguide
+`}),e.add({id:61,href:"/deancn/wiki/dev/standard/sec/",title:"DevSecOps",section:"Development Handbook",content:` 面向开发人员梳理的代码安全指南 # Tencent: https://github.com/tencent/secguide
 原文: https://mp.weixin.qq.com/s/yzg5uVnoJDTyaH2Wn8Vo7w
 设计理念 # 代码安全指南的内容呈树状结构展开，共分5层，如下：
-`}),e.add({id:63,href:"/deancn/wiki/part1/okr/",title:"OKR",section:"工作和生活效率",content:`通过对 OKR 的学习和理解，应用到工作和生活，以此提升自我能力，提升家庭幸福感。
+`}),e.add({id:62,href:"/deancn/wiki/part1/okr/",title:"OKR",section:"工作和生活效率",content:`通过对 OKR 的学习和理解，应用到工作和生活，以此提升自我能力，提升家庭幸福感。
 家庭 OKR # 2021 年度家庭 OKR 拆解 # Objective 目标 Key Results 关键结果 备注 O1 提升财务表现 KR1: 通过职业收入和投资收入, 实现家庭年收入超过 XXX, 累计存款超过，净资产超过 XXX 剔除车辆资产 KR2: 通过家庭理财和投资，实现非职业收入超过 XXX, 占比至 XX% L3 Name C L3 Name D KR3: 通过理财投资方式，帮孩子实现年度收支盈余, 以及出生到现在的累计收支打平 L3 如有 L3 Name D O2 促进家庭假设 KR1: 完成车辆购置, 双周至少1次周边游, 调节家庭成员心情和促进孩子成长 L3 Name A L3 Name B KR2: 每月至少1次与家人的深度交流和问题解决, 来消除家庭潜在矛盾 L3 Name C L3 Name D KR3: 每月至少抽出4小时时间来参与孩子的启蒙教育，至少陪同上20次早教 L3 Name C L3 Name D O3 个人能力提升 KR1: 提升专业知识储备(团队管理、项止管理和经济学理论), 且累计完成100+ 篇深度思考文章沉淀 L3 Name A L3 Name B KR2: 提升方法论快速复制能力， 在所负责的工作方向上实现业务突破，并拿到1-2 个成功案例 L3 Name C L3 Name D KR3: 经营家庭相关方法论输出，帮助身边朋友成长，同时提升个人影响力 L3 Name C L3 Name D O4 健康升级保障 KR1: 通过规律作息和加强运动，确保身体各项指标稳定在正常值，不过分追求体重单一指标 L3 Name A L3 Name B KR2: 升级保险保障计划，从单纯抗风险升级到关注就医品质和体验 L3 Name C L3 Name D KR3: 建立医疗相关知识库，除熟记就医常识外，梳理国内主流医院、擅长领域及专家，并建立联系渠道或方式 L3 Name C L3 Name D 个人成长方法论 # tips: 对于不同个体，实践时需要考虑不同的处境，问题的优先级，定制自己的具体实践。 别人的问题，可能也是你的问题，但不一定是你的主要问题。
-`}),e.add({id:64,href:"/deancn/wiki/iot/raspberry/",title:"Raspberry 树莓派",section:"Wikis",content:` 树莓派系统烧录 # https://stepneverstop.github.io/burn-system2raspberry-in-macos.html
+`}),e.add({id:63,href:"/deancn/wiki/iot/raspberry/",title:"Raspberry 树莓派",section:"Wikis",content:` 树莓派系统烧录 # https://stepneverstop.github.io/burn-system2raspberry-in-macos.html
 系统配置 # 重新插拔usb
 cd /Volumes/boot # 进入根系统 配置网络 # wpa_supplicant.conf
 \`\` country=CN ctrl_interface=DIR=/var/run/wpa_supplicant Group=netdev update_config=1
@@ -478,14 +478,14 @@ network={ ssid=\u0026ldquo;Wifi1的名字\u0026rdquo; psk=\u0026ldquo;密码\u00
 network={ ssid=\u0026ldquo;Wifi2的名字\u0026rdquo; psk=\u0026ldquo;密码\u0026rdquo; priority=优先级 }
 ### 开启 sshd 服务 touch ssh
 ### 显示器无输出 解决树莓派4B外接显示屏没反应, 追加如下内容到 config.txt 目录 hdmi_force_hotplug=1 config_hdmi_boost=4 hdmi_group=2 hdmi_mode=9 hdmi_drive=2 hdmi_ignore_edid=0xa5000080 disable_overscan=1
-### homebrige https://github.com/oznu/docker-homebridge/wiki/Homebridge-on-Raspberry-Pi ## Bluetooth 树莓派（Raspberry Pi 4）开启和连接蓝牙 https://blog.csdn.net/Cool2050/article/details/105615831 `}),e.add({id:65,href:"/deancn/wiki/dev/pm/",title:"产品学习",section:"Development Handbook",content:" 产品学习 # 订单系统：从0到1设计思路 "}),e.add({id:66,href:"/deancn/wiki/arch/hexagonal/",title:"六边形实践",section:"系统架构",content:` Golang领域模型-六边形架构
+### homebrige https://github.com/oznu/docker-homebridge/wiki/Homebridge-on-Raspberry-Pi ## Bluetooth 树莓派（Raspberry Pi 4）开启和连接蓝牙 https://blog.csdn.net/Cool2050/article/details/105615831 `}),e.add({id:64,href:"/deancn/wiki/dev/pm/",title:"产品学习",section:"Development Handbook",content:" 产品学习 # 订单系统：从0到1设计思路 "}),e.add({id:65,href:"/deancn/wiki/arch/hexagonal/",title:"六边形实践",section:"系统架构",content:` Golang领域模型-六边形架构
 前言： 六边形架构又称“端口适配器架构”，实际上也是一种分层架构，只不过由上下或者左右变成了内部与外部。其核心理念就是应用通过端口与外部进行交互的。核心的业务逻辑（领域模型）与外部资源（数据库等资源）完全隔离，仅通过适配器进行交互，解决了业务逻辑与用户数据交错的问题，很好的实现了前后端分离。
 分层架构问题： # 某些逻辑处理或某些数据处理该放在哪一层？ 该分多少层？ 平层和跨层调用是否合理? 项目目录 # domain - 领域模型 aggregate - 聚合 entity - 实体 dto - 传输对象 po - 持久化对象 *.go - 领域服务
 adapter - 端口适配器 controller - 输入适配器 repository - 输出适配器
 server - 服务端程序入口 conf - 配置文件 main.go - 主函数 infra - 基础设施 *go - 基础设施组件 domain 领域模型目录
 对应六边形的内部，主要放领域服务service的代码。子目录分为aggregate聚合根目录、entity实体目录。 adapter 适配器目录
 对应六边形的外部，主要是输入和输出的适配器。controller子目录负责 http的api输入，repository子目录负责实体的读写。dto子目录是controller或repository的外部输入输出对象。po子目录是数据库的持久化对象，这些对象是生成的。
-The Clean Architecture Struct # internal/ ├── app │ ├── adapter │ │ ├── mysql │ │ │ ├── model │ │ │ │ └── user.go │ │ │ └── conn.go │ │ ├── repository │ │ │ └── user.go │ │ ├── view │ │ │ └── index.tmpl │ │ └── controller.go │ ├── application │ │ ├── service │ │ │ └── exchange.go │ │ └── usecase │ │ ├── user.go │ │ └── user_test.go │ └── domain │ ├── factory │ │ └── user.go │ ├── repository │ │ └── user.go │ ├── service │ │ └── user.go │ ├── valueobject │ │ └── user.go │ └── user.go └── version └── build.go 六边形项目目录结构 # adapter 适配器目录 # controller - 输入适配器 repository - 输出适配器 domain - 领域模型 # aggregate - 聚合 entity - 实体 dto - 传输对象 po - 持久化对象 *.go - 领域服务 `}),e.add({id:67,href:"/deancn/wiki/emotion/l1/",title:"内卷问题",section:"情感训练",content:` 分类 # 工作内卷 婚姻内卷 人物分析 # p1 - 王开心
+The Clean Architecture Struct # internal/ ├── app │ ├── adapter │ │ ├── mysql │ │ │ ├── model │ │ │ │ └── user.go │ │ │ └── conn.go │ │ ├── repository │ │ │ └── user.go │ │ ├── view │ │ │ └── index.tmpl │ │ └── controller.go │ ├── application │ │ ├── service │ │ │ └── exchange.go │ │ └── usecase │ │ ├── user.go │ │ └── user_test.go │ └── domain │ ├── factory │ │ └── user.go │ ├── repository │ │ └── user.go │ ├── service │ │ └── user.go │ ├── valueobject │ │ └── user.go │ └── user.go └── version └── build.go 六边形项目目录结构 # adapter 适配器目录 # controller - 输入适配器 repository - 输出适配器 domain - 领域模型 # aggregate - 聚合 entity - 实体 dto - 传输对象 po - 持久化对象 *.go - 领域服务 `}),e.add({id:66,href:"/deancn/wiki/emotion/l1/",title:"内卷问题",section:"情感训练",content:` 分类 # 工作内卷 婚姻内卷 人物分析 # p1 - 王开心
 优点： 沟通能力 1. 讲故事引入 2. 完整的表达心路历程，经理 3. 聆听 4. 愿意改变，努力方向
 在学习了解 \u0026ldquo;从虚无到虚无\u0026rdquo; 我的理解： 对生命，对哲学佛学，奉献的思考，必然是生命的终点， 但是什么时候适合自己， 而不是一开始就适合。 我的建议： 要有自己的方向和目标，而不是别人的。
 内卷建议： 1. 弹簧，度 自趋力 2. 材质，出生不同， 处境 3. 使劲， 柯达死于数码相机死于智能手机，具备降维打击的能力 4. 长期主义者， 适当躺平，放弃
@@ -493,7 +493,7 @@ The Clean Architecture Struct # internal/ ├── app │ ├── adapter �
 男人和女人的两个特点(年龄不相关) # 男人： 帝王性, 小孩性 女人： 母爱性, 公主性 如何营造家庭氛围？ 1. 仪式感， 纪念日 早拥吻， 晚卧谈， 心灵沟通 2. 肯定对方的价值，表达温暖 3. 想要得到是什么
 汇总 # 家庭关系tips: 爱妻如存银行，爱越存越富裕！
 总结：
-1. 接纳自己，适当认怂 2. 必要和别人比，复盘 3. 身心愉悦 4. 以终为始 5. 放掉输赢思维 6. 关注自己能改变的， 向内提升，影响别人，不要试图改变 7. 内卷如弹簧 8. 提高自己的人生维度， 降维打击 9. 材质不同，发挥优势，弥补短板 10. 长期主义者，个人建议多做做公益 11. 外面没有别人，只有自己，先成人，再成事 `}),e.add({id:68,href:"/deancn/wiki/part4/ids/indentify-proxy/",title:"如何识别代理",section:"用户行为安全",content:` 代理ip常见的一些功能 # 1.突破自身ip访问限制，现在有许多的网站都对ip地址访问进行了限制，这时则可以通过代理ip来突破限制，让自己进入网站。
+1. 接纳自己，适当认怂 2. 必要和别人比，复盘 3. 身心愉悦 4. 以终为始 5. 放掉输赢思维 6. 关注自己能改变的， 向内提升，影响别人，不要试图改变 7. 内卷如弹簧 8. 提高自己的人生维度， 降维打击 9. 材质不同，发挥优势，弥补短板 10. 长期主义者，个人建议多做做公益 11. 外面没有别人，只有自己，先成人，再成事 `}),e.add({id:67,href:"/deancn/wiki/part4/ids/indentify-proxy/",title:"如何识别代理",section:"用户行为安全",content:` 代理ip常见的一些功能 # 1.突破自身ip访问限制，现在有许多的网站都对ip地址访问进行了限制，这时则可以通过代理ip来突破限制，让自己进入网站。
 2.提高访问速度，通常代理ip服务器都设置一个较大的硬盘缓冲区，当有外信息市，则直接由缓冲区中取出信息，传给用户，以提高访问速度。
 3.隐藏真实ip达到匿名效果，可以通过代理ip上网，隐藏真实的ip地址，避免受到黑客攻击。
 4.突破ip封锁，例如要抓取一个网站的数据，但是网站对每个ip所能抓取的数据做了限制，这时我们使用代理ip，不停地切换ip，就可以突破限制，从而提高工作效率。
@@ -510,11 +510,11 @@ b.如果响应中包含Proxy-Connection参数，则为匿名代理；
 c.其他情况则为高匿代理；
 怎样快速判断代理ip是否可用 # telnet
 Reference # https://www.wanbianip.com/News-newsInfo-id-213.html https://www.dailiproxy.com/how-to-detect-if-an-ip-address-is-a-proxy/
-`}),e.add({id:69,href:"/deancn/wiki/training/2-disaster-recovery/",title:"容灾方案",section:"训练板块",content:" DNS 容灾 # GEO Location Weight Network provider 机房、AZ 容灾 4层 网络容灾 - NLB # anycast DPVS and other LB 机房容灾 7层 应用容灾 # 前端 - CDN 容灾 前端 - 全局配置，服务降级策略，防止前端，app 重试导致雪崩。 前端 - Regional 配置, 服务降级策略 APP 移动端 后端 - 限速限流 后端 - 网络调度 接入调度, DoH, DNS over TLS, etc\u0026hellip; 消息队列 - 熔断, 限流 推广、营销策略 "}),e.add({id:70,href:"/deancn/wiki/part1/okr/method/",title:"工作方法或原则",section:"OKR",content:` SMART 原则 # 指标必须是具体的（Specific） 指标必须是可以衡量的（Measurable） 指标必须是可以达到的（Attainable） 指标是要与其他目标具有一定的相关性(Relevant) 指标必须具有明确的截止期限（Time-bound） 字母 典型对应 更多对应 S Specific（明确） Significant（重要）, Stretching（延伸）, Simple（简易） M Measurable（可衡量） Meaningful（有意义）, Motivational（激励）, Manageable（可管理） A Achievable（可达成） Appropriate（适宜）, Attainable（可达成）, Agreed（同意）, Assignable（可分配）,Actionable（可行动）,Action-oriented（行动导向）, Ambitious（雄心） R Relevant（相关） Realistic（实际）, Results/Results-focused/Results-oriented, Resourced（资源）, Rewarding（奖励） T Time-bound （时限） Time-oriented（时间定向）, Time framed（时限）, Timed（时限）,
-Time-based（基于时间）, Timeboxed（时限）, Timely（及时）, Time-Specific（明确时间）, Timetabled（表定时间）, Time limited（时限）, Trackable（可跟踪）, Tangible（明白） SWOT 分析法 # `}),e.add({id:71,href:"/deancn/wiki/emotion/",title:"情感训练",section:"Wikis",content:` 为什么我要进行情感训练 # 追求更好的美好生活
+`}),e.add({id:68,href:"/deancn/wiki/part1/okr/method/",title:"工作方法或原则",section:"OKR",content:` SMART 原则 # 指标必须是具体的（Specific） 指标必须是可以衡量的（Measurable） 指标必须是可以达到的（Attainable） 指标是要与其他目标具有一定的相关性(Relevant) 指标必须具有明确的截止期限（Time-bound） 字母 典型对应 更多对应 S Specific（明确） Significant（重要）, Stretching（延伸）, Simple（简易） M Measurable（可衡量） Meaningful（有意义）, Motivational（激励）, Manageable（可管理） A Achievable（可达成） Appropriate（适宜）, Attainable（可达成）, Agreed（同意）, Assignable（可分配）,Actionable（可行动）,Action-oriented（行动导向）, Ambitious（雄心） R Relevant（相关） Realistic（实际）, Results/Results-focused/Results-oriented, Resourced（资源）, Rewarding（奖励） T Time-bound （时限） Time-oriented（时间定向）, Time framed（时限）, Timed（时限）,
+Time-based（基于时间）, Timeboxed（时限）, Timely（及时）, Time-Specific（明确时间）, Timetabled（表定时间）, Time limited（时限）, Trackable（可跟踪）, Tangible（明白） SWOT 分析法 # `}),e.add({id:69,href:"/deancn/wiki/emotion/",title:"情感训练",section:"Wikis",content:` 为什么我要进行情感训练 # 追求更好的美好生活
 我的问题 # 沟通能力 共情能力 我的目标 # 解决个人在家庭及婚姻中的潜在问题，追求更高质量的情感生活。
-我当前的情况和理解 # 人生拆解为3个阶段, 每个阶段的主题 # 1. 成长与成家 # 远行，看不同的风景，了解不同的风土人情 多与人交流，外向，学着表达。 了解更多人的生活，了解他们的价值观，世界观。 一技之长，解决生存之根本 交好友，拜良师，遇贵人，练秉性，结良缘 学好语言，沟通表达，准确的表达自己的想法和情绪 2. 生活与梦想 # 梳理自己的经历，学识， 树立自己的知识体系 树立自己的价值观，世界观(如有) 确定自己的方向和目标，了解清楚自己追求的到底是什么 总结理论，更要多多实践。 博采众长，百家争鸣，最终创立自己的流派和思想。 长期维护良师益友关系，经营家庭婚恋关系 提升认知和财富，提升阶层、品味 省视自己的目标，梦想与追求，调整为适合自己的，拆分、实施、调整、落地。 这个阶段禁忌好为人师，少评论批评别人，多一些聆听即可。 3. 立德与育人 # 树立自己的德行 树立家庭或家族文化 给亲人，徒弟指导方向， 以德育人 做好倾听，陪伴，尤其是对家人。 多一些对生命，哲学佛学，奉献的思考，这些必然是生命的终点。 贯穿人一生的： # 习惯 沟通 耐心 情绪 `}),e.add({id:72,href:"/deancn/wiki/linux/shell/tcpdump/",title:"抓包",section:"Shell",content:` 抓取 udp dns 包 # sudo timeout 60 tcpdump -i any -n port 53 sudo tcpdump -i any -nn udp and port 53 sudo tcpdump -i bond0.1000 -nnAAAA | grep -A 20 -B 3 airdb.io 抓取 Client Hello 包 # sudo tcpdump \u0026ldquo;tcp port 443 and (tcp[((tcp[12] \u0026amp; 0xf0) \u0026raquo;2)] = 0x16) \u0026amp;\u0026amp; (tcp[((tcp[12] \u0026amp; 0xf0) \u0026raquo;2)+5] = 0x01)\u0026rdquo; -w client-hello.pcap
-`}),e.add({id:73,href:"/deancn/wiki/dev/db/",title:"数据库",section:"Development Handbook",content:`1、数据库的三范式是什么?
+我当前的情况和理解 # 人生拆解为3个阶段, 每个阶段的主题 # 1. 成长与成家 # 远行，看不同的风景，了解不同的风土人情 多与人交流，外向，学着表达。 了解更多人的生活，了解他们的价值观，世界观。 一技之长，解决生存之根本 交好友，拜良师，遇贵人，练秉性，结良缘 学好语言，沟通表达，准确的表达自己的想法和情绪 2. 生活与梦想 # 梳理自己的经历，学识， 树立自己的知识体系 树立自己的价值观，世界观(如有) 确定自己的方向和目标，了解清楚自己追求的到底是什么 总结理论，更要多多实践。 博采众长，百家争鸣，最终创立自己的流派和思想。 长期维护良师益友关系，经营家庭婚恋关系 提升认知和财富，提升阶层、品味 省视自己的目标，梦想与追求，调整为适合自己的，拆分、实施、调整、落地。 这个阶段禁忌好为人师，少评论批评别人，多一些聆听即可。 3. 立德与育人 # 树立自己的德行 树立家庭或家族文化 给亲人，徒弟指导方向， 以德育人 做好倾听，陪伴，尤其是对家人。 多一些对生命，哲学佛学，奉献的思考，这些必然是生命的终点。 贯穿人一生的： # 习惯 沟通 耐心 情绪 `}),e.add({id:70,href:"/deancn/wiki/linux/shell/tcpdump/",title:"抓包",section:"Shell",content:` 抓取 udp dns 包 # sudo timeout 60 tcpdump -i any -n port 53 sudo tcpdump -i any -nn udp and port 53 sudo tcpdump -i bond0.1000 -nnAAAA | grep -A 20 -B 3 airdb.io 抓取 Client Hello 包 # sudo tcpdump \u0026ldquo;tcp port 443 and (tcp[((tcp[12] \u0026amp; 0xf0) \u0026raquo;2)] = 0x16) \u0026amp;\u0026amp; (tcp[((tcp[12] \u0026amp; 0xf0) \u0026raquo;2)+5] = 0x01)\u0026rdquo; -w client-hello.pcap
+`}),e.add({id:71,href:"/deancn/wiki/dev/db/",title:"数据库",section:"Development Handbook",content:`1、数据库的三范式是什么?
 2、DDL、DML、DCL、TCL分表代码什么含义？
 3、熟悉MySQL的整体架构吗？
 4、说说存储引擎 Inno DB和MyISAM的区别
@@ -539,12 +539,11 @@ Time-based（基于时间）, Timeboxed（时限）, Timely（及时）, Time-Sp
 23、用过explain吗？怎么用的？
 24、熟悉MySQL锁优化吗？
 25、熟悉哪些MySQL调优策略？
-`}),e.add({id:74,href:"/deancn/wiki/part1/time-management/",title:"时间管理",section:"工作和生活效率",content:` 时间管理 # 如何一天完成4个人的工作量?
-07:00 - 09:00 是大脑的黄金时间, 可以用来写文章，看书，学外语。 09:00 - 12:00 适合罐头工作法, 找一个安静无打扰的空间, 保持高度的专注。 13:00 - 16:00 是人在一天当中最困的时候，可以适当小睡, 也可以通过变化工作场所来恢复。 16:00 - 18:00 人会升起一种紧迫感, 想着一天不能就这样结束了，进入高效工作。 18:00 - 19:00 适合通过运动来让大脑重启。 19:00 - 21:00 是大脑的第二个黄金时间, 适合再做一些自我投资。 21:00 以后为了不失眠，还是尽早放松吧。 `}),e.add({id:75,href:"/deancn/wiki/training/3-traffic-replay/",title:"流量录制",section:"训练板块",content:` UDP 流量录制 # 压测 DNS https://github.com/airdb/goreplay-udp
-Application # 压测 gateway, webapi https://github.com/buger/goreplay `}),e.add({id:76,href:"/deancn/wiki/dev/mq/",title:"消息队列",section:"Development Handbook",content:` 高性能万亿级消息吞吐Pulsar设计原理
-`}),e.add({id:77,href:"/deancn/wiki/part4/crawler/",title:"爬虫",section:"Part4",content:` https://docs.crawlab.cn/zh/Spider/ConfigurableSpider.html
+`}),e.add({id:72,href:"/deancn/wiki/part1/time-management/",title:"时间管理",section:"工作和生活效率",content:` 时间管理 # 如何一天完成4个人的工作量?
+07:00 - 09:00 是大脑的黄金时间, 可以用来写文章，看书，学外语。 09:00 - 12:00 适合罐头工作法, 找一个安静无打扰的空间, 保持高度的专注。 13:00 - 16:00 是人在一天当中最困的时候，可以适当小睡, 也可以通过变化工作场所来恢复。 16:00 - 18:00 人会升起一种紧迫感, 想着一天不能就这样结束了，进入高效工作。 18:00 - 19:00 适合通过运动来让大脑重启。 19:00 - 21:00 是大脑的第二个黄金时间, 适合再做一些自我投资。 21:00 以后为了不失眠，还是尽早放松吧。 `}),e.add({id:73,href:"/deancn/wiki/dev/mq/",title:"消息队列",section:"Development Handbook",content:` 高性能万亿级消息吞吐Pulsar设计原理
+`}),e.add({id:74,href:"/deancn/wiki/part4/crawler/",title:"爬虫",section:"Part4",content:` https://docs.crawlab.cn/zh/Spider/ConfigurableSpider.html
 https://github.com/gocolly/colly https://github.com/crawlab-team/crawlab
-`}),e.add({id:78,href:"/deancn/wiki/training/1-setup-os-and-environment/",title:"环境设置",section:"训练板块",content:" Mac # brew Windows # ubuntu shell and network Common # github.com vscode golang hugo (for recording documents) "}),e.add({id:79,href:"/deancn/wiki/part4/ids/",title:"用户行为安全",section:"Part4",content:` 爬虫检测技术 # 行为检测: 通过分析网页上用户的操作（鼠标的移动、点击、滚动行为和浏览行为）来判断操作者是否是机器控制的网络爬虫。
+`}),e.add({id:75,href:"/deancn/wiki/training/1-setup-os-and-environment/",title:"环境设置",section:"训练板块",content:" Mac # brew Windows # ubuntu shell and network Common # github.com vscode golang hugo (for recording documents) "}),e.add({id:76,href:"/deancn/wiki/part4/ids/",title:"用户行为安全",section:"Part4",content:` 爬虫检测技术 # 行为检测: 通过分析网页上用户的操作（鼠标的移动、点击、滚动行为和浏览行为）来判断操作者是否是机器控制的网络爬虫。
 指纹识别: 通过分析设备和浏览器的信息来判断访问者是否为网络爬虫。
 虽然指纹识别有被攻破和绕过的可能，但是指纹识别相较于行为检测，可以比较快速地对访问者做出识别和判断，将那些看了几篇教程就撸起袖子一通乱干的爬虫死死地摁在地上。
 JA3(s) 的使用原理 # Q: 为什么 Ja3 的计算结果能够用于识别 TSL/SSL 指纹信息？ A: 这其实源于John Althouse的一个研究结果：同一个服务器对同一个客户端的多次请求返回相同的响应信息。
@@ -570,7 +569,7 @@ TLS Fingerprinting in the Real World
 Python常见的反爬手段和反反爬虫方法
 爬虫风险管理
 基于Web的爬虫识别算法
-`}),e.add({id:80,href:"/deancn/wiki/arch/",title:"系统架构",section:"Wikis",content:` 怎么提高自己的系统架构水平 DDD 实战课
+`}),e.add({id:77,href:"/deancn/wiki/arch/",title:"系统架构",section:"Wikis",content:` 怎么提高自己的系统架构水平 DDD 实战课
 什么是架构 # 架构 是指构成一个系统的主要元素及它们之间的主要关联，这些元素和关联能够反映该系统的本质特征。
 选择架构应该了解架构的来源和所要解决的问题，从业务和问题出发，避免滥用架构。
 分层架构 # 分层架构是一种历史悠久的架构，通过分层架构，可以将系统按不同职责组织成有序层次，由于这种划分往往比较容易界定，也算是最常见和最受欢迎的一种架构
@@ -580,6 +579,6 @@ DDD分层架构 # 不过从分层架构图中可以发现，将基础设施层�
 六边形架构（Hexagonal architecture） # 六边形架构是Alistair Cockburn在2005年提出，解决了传统的分层架构所带来的问题，实际上它也是一种分层架构，只不过不是上下或左右，而是变成了内部和外部
 六边形架构的功能非常强大，可以作为基层架构并用于支持系统的其他架构。
 六边形的内部代表了application和domain层。外部代表应用的驱动逻辑、基础设施或其他应用。内部通过端口和外部系统通信，端口代表了一定协议，以API呈现。
-`}),e.add({id:81,href:"/deancn/wiki/linux/network/",title:"网络",section:"Linux",content:`姜知笔记: https://www.gingerdoc.com/
-`}),e.add({id:82,href:"/deancn/wiki/training/",title:"训练板块",section:"Wikis",content:`目标：练习常用的技能
+`}),e.add({id:78,href:"/deancn/wiki/linux/network/",title:"网络",section:"Linux",content:`姜知笔记: https://www.gingerdoc.com/
+`}),e.add({id:79,href:"/deancn/wiki/training/",title:"训练板块",section:"Wikis",content:`目标：练习常用的技能
 `})})()
