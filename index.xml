@@ -10,7 +10,32 @@ Create the resources &amp;amp; the Ingress in the cluster # example code</descri
 install Mysql # mysql
 helm install mysql --set mysqlRootPassword=secret stable/mysql MYSQL_ROOT_PASSWORD=$(kubectl get secret --namespace default mysql -o jsonpath=&amp;#34;{.data.mysql-root-password}&amp;#34; | base64 --decode; echo) kubectl port-forward svc/mysql 3306</description></item><item><title/><link>https://airdb.wiki/deancn/wiki/kube/9-faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://airdb.wiki/deancn/wiki/kube/9-faq/</guid><description>Kube &amp;amp; Helm FAQ # Minikube # (How to completely purge minikube config or reset IP back to 192.168.99.100)[https://stackoverflow.com/questions/53871053/how-to-completely-purge-minikube-config-or-reset-ip-back-to-192-168-99-100] ~/Library/VirtualBox/HostInterfaceNetworking-vboxnet0-Dhcpd.leases</description></item><item><title/><link>https://airdb.wiki/deancn/wiki/kube/helm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://airdb.wiki/deancn/wiki/kube/helm/</guid><description>Airdb Helm
 Helm Package Repo. Heml index.yaml
-Usage # helm repo add airdb https://www.airdb.com/helm/ helm repo update helm search repo helm/mychart helm install airdb/mychat Helm V3 Env and Search # helm env helm search repo airdb Create or Update Helm Chart Repo # git clone https://github.com/airdb/helm/ cd helm helm repo index ./ --url https://www.airdb.com/helm/ helm package mychart Update the index.yaml file based on your chart. helm repo index --merge index.yaml --url https://www.</description></item><item><title/><link>https://airdb.wiki/deancn/wiki/part1/4-ways-to-learn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://airdb.wiki/deancn/wiki/part1/4-ways-to-learn/</guid><description>四种学习方法 (来源：搜狐, 侵删) # 一、费曼学习法： # 费曼学习法的灵感源于诺贝尔物理奖获得者理查德费曼（Richard Feynman），运用费曼技巧,你只需花上20分钟就能深入理解知识点,而且记忆深刻,难以遗忘。知识有两种类型，我们绝大多数人关注的都是错误的那类。第一类知识注重了解某个事物的名称。第二类知识注重了解某件事物。这可不是一回事儿。著名的诺贝尔物理学家理查德·费曼（Richard Feynman）能够理解这二者间的差别，这也是他成功最重要的原因之一。事实上，他创造了一种学习方法，确保他会比别人对事物了解得更透彻。
+Usage # helm repo add airdb https://www.airdb.com/helm/ helm repo update helm search repo helm/mychart helm install airdb/mychat Helm V3 Env and Search # helm env helm search repo airdb Create or Update Helm Chart Repo # git clone https://github.com/airdb/helm/ cd helm helm repo index ./ --url https://www.airdb.com/helm/ helm package mychart Update the index.yaml file based on your chart. helm repo index --merge index.yaml --url https://www.</description></item><item><title/><link>https://airdb.wiki/deancn/wiki/ops/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://airdb.wiki/deancn/wiki/ops/</guid><description>运维 # 接入 # 四层接入
+七层接入
+CDN
+IP 库
+Nginx
+服务集群 # 发布
+容器
+调度
+容灾
+数据一致性
+容灾
+多活
+预案演练
+CI/CD # 持续集成
+持续部署
+数据库 # 同步
+数据恢复
+缓存 # 中间件 # Kafka
+消息中间件 MQ
+数据安全及运维安全 # WAF
+大数据及分布式计算 # Hadoop
+Ceph
+Hive
+人工智能 # 语音识别 ASR
+人脸识别
+自然语言处理 NLP</description></item><item><title/><link>https://airdb.wiki/deancn/wiki/part1/4-ways-to-learn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://airdb.wiki/deancn/wiki/part1/4-ways-to-learn/</guid><description>四种学习方法 (来源：搜狐, 侵删) # 一、费曼学习法： # 费曼学习法的灵感源于诺贝尔物理奖获得者理查德费曼（Richard Feynman），运用费曼技巧,你只需花上20分钟就能深入理解知识点,而且记忆深刻,难以遗忘。知识有两种类型，我们绝大多数人关注的都是错误的那类。第一类知识注重了解某个事物的名称。第二类知识注重了解某件事物。这可不是一回事儿。著名的诺贝尔物理学家理查德·费曼（Richard Feynman）能够理解这二者间的差别，这也是他成功最重要的原因之一。事实上，他创造了一种学习方法，确保他会比别人对事物了解得更透彻。
 运用步骤：
 1、获取知识（某概念） ，理解你所要学习的材料的内容。
 2、讲解/复述 你所获得的主要内容。
@@ -57,41 +82,7 @@ SQ3R代表：
 4. 追过程 # 追过程中常用的有效沟通如何做？ 如何和不同沟通风格的人沟通？ 目标达成不理想，如何有效沟通？ 追过程中常用的有效辅导如何做？ 不同类型员工的有效辅导方法？
 目标：掌握追过程的关键能力
 5. 拿结果 # 好过程和好结果的哪个更重要？ 如何通过Review帮助员工和团队获得成长？ 如何通过Review形成可持续拿结果的方法？
-目标：总结出可持续拿结果的方法</description></item><item><title/><link>https://airdb.wiki/deancn/wiki/part1/README/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://airdb.wiki/deancn/wiki/part1/README/</guid><description>公共部分 # 公共部分内容</description></item><item><title/><link>https://airdb.wiki/deancn/wiki/part2/cicd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://airdb.wiki/deancn/wiki/part2/cicd/</guid><description>Code Wiki # Code Part # dev</description></item><item><title/><link>https://airdb.wiki/deancn/wiki/part2/gateway/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://airdb.wiki/deancn/wiki/part2/gateway/</guid><description>Gateway # 《深入理解BFE》
-智能网关趋势 # HTTPS
-Quic
-GTC (Global Traffic Control 全局流量控制） # 工作原理 分布式监控 调度计算 下发执行
-场景 网络出口故障 网络出口拥塞，被攻击 网络接入系统故障 区域性联通故障
-GSLB (Global Server Load Balancing 全局服务器负载平衡) # 目的 降低对DNS 调度的依赖 加快止损速度
-场景 内部服务故障 服务发布 内部服务压力不均 业务突增</description></item><item><title/><link>https://airdb.wiki/deancn/wiki/part2/kube/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://airdb.wiki/deancn/wiki/part2/kube/</guid><description>Code Wiki # Code Part # dev</description></item><item><title/><link>https://airdb.wiki/deancn/wiki/part2/linux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://airdb.wiki/deancn/wiki/part2/linux/</guid><description>Linux Wiki # Basic # Linux</description></item><item><title/><link>https://airdb.wiki/deancn/wiki/part2/ops/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://airdb.wiki/deancn/wiki/part2/ops/</guid><description>运维 # 接入 # 四层接入
-七层接入
-CDN
-IP 库
-Nginx
-服务集群 # 发布
-容器
-调度
-容灾
-数据一致性
-容灾
-多活
-预案演练
-CI/CD # 持续集成
-持续部署
-数据库 # 同步
-数据恢复
-缓存 # 中间件 # Kafka
-消息中间件 MQ
-数据安全及运维安全 # WAF
-大数据及分布式计算 # Hadoop
-Ceph
-Hive
-人工智能 # 语音识别 ASR
-人脸识别
-自然语言处理 NLP</description></item><item><title/><link>https://airdb.wiki/deancn/wiki/part2/osinit/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://airdb.wiki/deancn/wiki/part2/osinit/</guid><description>OS Init # 主机容器初始化 # [osinit]https://init.airdb.host/
-osinit Repo
-软件包管理 # Ubunut PPA ( https://launchpad.net/~airdb)
-sudo apt-add-repository ppa:airdb/adb</description></item><item><title/><link>https://airdb.wiki/deancn/wiki/part2/README/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://airdb.wiki/deancn/wiki/part2/README/</guid><description>Application 性能优化 # Linux 底层优化 # CPU￼ # 进程和 CPU 原理
+目标：总结出可持续拿结果的方法</description></item><item><title/><link>https://airdb.wiki/deancn/wiki/part1/README/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://airdb.wiki/deancn/wiki/part1/README/</guid><description>公共部分 # 公共部分内容</description></item><item><title/><link>https://airdb.wiki/deancn/wiki/part2/README/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://airdb.wiki/deancn/wiki/part2/README/</guid><description>Application 性能优化 # Linux 底层优化 # CPU￼ # 进程和 CPU 原理
 进程、线程与协程 CPU 调度 中断系统 CPU 缓存 NUMA 性能指标
 平均复杂 CPU 使用率：用户 CPU, 系统CPU，iowait, 软中断，硬中断，窃取 CPU，客户 CPU. 上下文切换：自愿切换，非自愿切换 CPU 缓存命中率 性能剖析
 top/htop/ps vmstat mpstat pidstat strace perf execsnoop proc 文件系统 调优方法
@@ -114,7 +105,9 @@ After you have checked for bad data, decide how to handle it.</description></ite
 PyPI 官方仓库遭遇request恶意包投毒
 [dean.airdb.local test]$ echo -e &amp;ldquo;import os; os.system(&amp;quot;ls&amp;quot;)&amp;rdquo; | base64 aW1wb3J0IG9zOyBvcy5zeXN0ZW0oImxzIikK
 [dean.airdb.local test]$ python -c &amp;ldquo;import base64; exec(base64.b64decode(&amp;lsquo;aW1wb3J0IG9zOyBvcy5zeXN0ZW0oImxzIikK&amp;rsquo;))&amp;rdquo; test test.log
-[dean.airdb.local test]$ echo -e aW1wb3J0IG9zOyBvcy5zeXN0ZW0oImxzIikK | base64 -d import os; os.system(&amp;ldquo;ls&amp;rdquo;)</description></item><item><title>产品学习</title><link>https://airdb.wiki/deancn/wiki/pm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://airdb.wiki/deancn/wiki/pm/</guid><description> 产品学习 # 订单系统：从0到1设计思路</description></item><item><title>内卷问题</title><link>https://airdb.wiki/deancn/wiki/emotion/l1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://airdb.wiki/deancn/wiki/emotion/l1/</guid><description>分类 # 工作内卷 婚姻内卷 人物分析 # p1 - 王开心
+[dean.airdb.local test]$ echo -e aW1wb3J0IG9zOyBvcy5zeXN0ZW0oImxzIikK | base64 -d import os; os.system(&amp;ldquo;ls&amp;rdquo;)</description></item><item><title/><link>https://airdb.wiki/deancn/wiki/pm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://airdb.wiki/deancn/wiki/pm/</guid><description>Reference # erad
+erda doc
+Wakatime</description></item><item><title>产品学习</title><link>https://airdb.wiki/deancn/wiki/saas/pm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://airdb.wiki/deancn/wiki/saas/pm/</guid><description> 产品学习 # 订单系统：从0到1设计思路</description></item><item><title>内卷问题</title><link>https://airdb.wiki/deancn/wiki/emotion/l1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://airdb.wiki/deancn/wiki/emotion/l1/</guid><description>分类 # 工作内卷 婚姻内卷 人物分析 # p1 - 王开心
 优点： 沟通能力 1. 讲故事引入 2. 完整的表达心路历程，经理 3. 聆听 4. 愿意改变，努力方向
 在学习了解 &amp;ldquo;从虚无到虚无&amp;rdquo; 我的理解： 对生命，对哲学佛学，奉献的思考，必然是生命的终点， 但是什么时候适合自己， 而不是一开始就适合。 我的建议： 要有自己的方向和目标，而不是别人的。
 内卷建议： 1. 弹簧，度 自趋力 2. 材质，出生不同， 处境 3. 使劲， 柯达死于数码相机死于智能手机，具备降维打击的能力 4. 长期主义者， 适当躺平，放弃
@@ -138,5 +131,4 @@ c.其他情况则为高匿代理；
 怎样快速判断代理ip是否可用 # telnet
 Reference # https://www.wanbianip.com/News-newsInfo-id-213.html https://www.dailiproxy.com/how-to-detect-if-an-ip-address-is-a-proxy/</description></item><item><title>工作方法或原则</title><link>https://airdb.wiki/deancn/wiki/part1/okr/method/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://airdb.wiki/deancn/wiki/part1/okr/method/</guid><description> SMART 原则 # 指标必须是具体的（Specific） 指标必须是可以衡量的（Measurable） 指标必须是可以达到的（Attainable） 指标是要与其他目标具有一定的相关性(Relevant) 指标必须具有明确的截止期限（Time-bound） 字母 典型对应 更多对应 S Specific（明确） Significant（重要）, Stretching（延伸）, Simple（简易） M Measurable（可衡量） Meaningful（有意义）, Motivational（激励）, Manageable（可管理） A Achievable（可达成） Appropriate（适宜）, Attainable（可达成）, Agreed（同意）, Assignable（可分配）,Actionable（可行动）,Action-oriented（行动导向）, Ambitious（雄心） R Relevant（相关） Realistic（实际）, Results/Results-focused/Results-oriented, Resourced（资源）, Rewarding（奖励） T Time-bound （时限） Time-oriented（时间定向）, Time framed（时限）, Timed（时限）,
 Time-based（基于时间）, Timeboxed（时限）, Timely（及时）, Time-Specific（明确时间）, Timetabled（表定时间）, Time limited（时限）, Trackable（可跟踪）, Tangible（明白） SWOT 分析法 #</description></item><item><title>时间管理</title><link>https://airdb.wiki/deancn/wiki/part1/time-management/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://airdb.wiki/deancn/wiki/part1/time-management/</guid><description> 时间管理 # 如何一天完成4个人的工作量?
-07:00 - 09:00 是大脑的黄金时间, 可以用来写文章，看书，学外语。 09:00 - 12:00 适合罐头工作法, 找一个安静无打扰的空间, 保持高度的专注。 13:00 - 16:00 是人在一天当中最困的时候，可以适当小睡, 也可以通过变化工作场所来恢复。 16:00 - 18:00 人会升起一种紧迫感, 想着一天不能就这样结束了，进入高效工作。 18:00 - 19:00 适合通过运动来让大脑重启。 19:00 - 21:00 是大脑的第二个黄金时间, 适合再做一些自我投资。 21:00 以后为了不失眠，还是尽早放松吧。</description></item><item><title>爬虫</title><link>https://airdb.wiki/deancn/wiki/part4/crawler/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://airdb.wiki/deancn/wiki/part4/crawler/</guid><description>https://docs.crawlab.cn/zh/Spider/ConfigurableSpider.html
-https://github.com/gocolly/colly https://github.com/crawlab-team/crawlab</description></item></channel></rss>
+07:00 - 09:00 是大脑的黄金时间, 可以用来写文章，看书，学外语。 09:00 - 12:00 适合罐头工作法, 找一个安静无打扰的空间, 保持高度的专注。 13:00 - 16:00 是人在一天当中最困的时候，可以适当小睡, 也可以通过变化工作场所来恢复。 16:00 - 18:00 人会升起一种紧迫感, 想着一天不能就这样结束了，进入高效工作。 18:00 - 19:00 适合通过运动来让大脑重启。 19:00 - 21:00 是大脑的第二个黄金时间, 适合再做一些自我投资。 21:00 以后为了不失眠，还是尽早放松吧。</description></item></channel></rss>
